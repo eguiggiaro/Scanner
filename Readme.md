@@ -69,7 +69,7 @@ B  | 12 seg | 12 seg | 12 seg
 
 
 
-Implementación | KB
+Implementación | KB | KB | KB
 -- | --
-Campo A0 | Campo B0
-Campo A1 | Campo B1
+Campo A0 | Campo B0 | Campo B0 | Campo B0
+Campo A1 | Campo B1 | Campo B0 | Campo B0
