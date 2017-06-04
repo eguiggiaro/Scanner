@@ -64,5 +64,6 @@ En la implementación, el final de la ejecución está representado por el fin d
 | Implementación / Orden |   KB   |   MB   |   GB   |
 |:----------------------:|:------:|:------:|:------:|
 |        A (GOTO)        | 0.34 seg | 0.73 seg | 77 seg |
-|    B (Recursividad)    | 0.57 seg | ERROR | ERROR |
+|    B (Recursividad)    | 0.57 seg | ERROR (*) | ERROR (*) |
 
+(*) Se genera un error en la ejecución de la implementación B, tanto para el test en el orden de los MB, como en el orden de los GB. La ejecución del programa finaliza con error luego de comenzada la ejecución. Entendemos que esto se debe a las llamadas recursivas que se incluyeron en la segunda implementación. Esto hace que la implementación A sea la solución más eficaz, pero además, la  más eficiente dado que consume considerablemente menos recursos que la B.
