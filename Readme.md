@@ -38,10 +38,6 @@ M = (Q, E, T, q0, F), dónde:
 	* Comentario multilinea: [^"']\/\*(\*(?!\/)|[^*])*\*\/[^"']
 
 ***
-### Máquina de estados
-
-
-***
 ### Descripción de la implementación A: rc-a.c.
 
 La implementación A se basa en el autómata descripto, y utiliza etiquetas GOTO para hacer efectivas las transiciones.
@@ -64,10 +60,7 @@ En la implementación, el final de la ejecución está representado por el fin d
 
 ### Benchmark
 
-
-| Implementación / Orden | KB | MB | GB
-| :------- 	| :------: | -----: |
-| A (GOTO)   | 12 seg | 12 seg | 12 seg |
-| B (Recursividad) | 32 seg | 23,65€ | 12 seg |
-
-
+Implementación / Orden | KB | MB | GB
+-- | --
+A (GOTO) | 12 seg | 12 seg | 12 seg
+B (Recursivo) | 12 seg | 12 seg | 12 seg
