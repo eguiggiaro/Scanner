@@ -60,16 +60,9 @@ En la implementación, el final de la ejecución está representado por el fin d
 
 ### Benchmark
 
-Implementación | KB | MB | GB
--- | --
-A | 12 seg | 12 seg | 12 seg
-B  | 12 seg | 12 seg | 12 seg
-
-
-
-
 
 | Implementación / Orden |   KB   |   MB   |   GB   |
 |:----------------------:|:------:|:------:|:------:|
 |        A (GOTO)        | 12 seg | 12 seg | 12 seg |
 |    B (Recursividad)    | 12 seg | 12 seg | 12 seg |
+
