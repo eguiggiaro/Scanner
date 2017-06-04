@@ -64,3 +64,12 @@ Implementación | KB | MB | GB
 -- | --
 A | 12 seg | 12 seg | 12 seg
 B  | 12 seg | 12 seg | 12 seg
+
+
+
+
+
+Cabecera A | Cabecera B
+-- | --
+Campo A0 | Campo B0
+Campo A1 | Campo B1
