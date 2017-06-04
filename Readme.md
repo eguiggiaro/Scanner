@@ -63,6 +63,6 @@ En la implementación, el final de la ejecución está representado por el fin d
 
 | Implementación / Orden |   KB   |   MB   |   GB   |
 |:----------------------:|:------:|:------:|:------:|
-|        A (GOTO)        | 12 seg | 12 seg | 12 seg |
-|    B (Recursividad)    | 12 seg | 12 seg | 12 seg |
+|        A (GOTO)        | 0.34 seg | 0.73 seg | 77 seg |
+|    B (Recursividad)    | 0.57 seg | ERROR | ERROR |
 
